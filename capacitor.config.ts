@@ -1,9 +1,9 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'io.esiea.spotyMike',
   appName: 'SpotyMike-Mobile',
-  webDir: 'www'
+  webDir: 'www',
 };
 
 export default config;
