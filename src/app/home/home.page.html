@@ -13,6 +13,12 @@
     </ion-toolbar>
   </ion-header>
 
+  @for(user of users; track user){
+  <p [innerHTML]="user.id"> </p>
+  <p> {{ user.username }} </p>
+  <p> {{ user.phone | phoneNumber }} </p>
+  }
+
   <div id="container"><ion-icon name="albums-outline"></ion-icon>
     <strong>Ready to create an app? <ion-icon name="airplane-outline"></ion-icon></strong>
     <ion-icon name="airplane-outline"></ion-icon>
